@@ -9,7 +9,7 @@ Crypto key is a named object containing one or more key versions, along with met
 
 The key version lifecycle explained below:
 
-image
+![lifecycle](images/kms_states.png)
 
 ## Disabled state
 In that state key version may not be used, but the key material is still available, and the version can be placed back into the enabled state.
