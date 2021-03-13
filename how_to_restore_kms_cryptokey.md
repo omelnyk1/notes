@@ -14,7 +14,7 @@ The key version lifecycle explained below:
 ## Disabled state
 In that state key version may not be used, but the key material is still available, and the version can be placed back into the enabled state.
 
-warn:
+> :warning:
 Disabling a key version is consistent within a range of several seconds up to three hours. Enabling a key version is nearly instant. That means, although a key version in disable state, we could use it up to 3 hours.
 
 Typical error during crypto operation with key version in disabled state:
@@ -48,7 +48,7 @@ $ gcloud kms keys versions enable 1 \
     --format yaml
 ```
 ## Scheduled for destruction state
-warn:
+> :warning: 
 Destroying a key is a permanent operation that can cause unrecoverable data loss. If you decide that you do not want the destruction to occur, you can restore the key version. However, after 24 hours this action is not reversible. Any data encrypted with this key version will not be recoverable!
 
 Typical error during crypto operation with key version in that state:
