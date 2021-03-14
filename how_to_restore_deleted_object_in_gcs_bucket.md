@@ -34,7 +34,7 @@ Copying gs://tf-state/test.tfstate#1596557410470854...
 Operation completed over 1 objects/385.2 KiB.
 ```
 
-- Open resored state file:
+- Open restored state file:
 ```sh
 $ head -18 test.tfstate
 {
