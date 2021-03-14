@@ -1,4 +1,4 @@
-# How to restore KMS cryptokey
+# How to restore GCP KMS cryptokey
 
 ## Intro
 Cloud Key Management Service (KMS) allows us to create, import, and manage cryptographic keys and perform cryptographic operations in a single centralized cloud service.
