@@ -1,8 +1,9 @@
 # Fluentd agent for GCE virtual machine
 ## Problem
-We have customized MongoDB cluster based on GCE virtual machines (RHEL8). We need to install fluentd agents on it and publish logs to Google Logging service.
+We have customized MongoDB cluster based on GCE virtual machines (RHEL 8). We need to install fluentd agents on it and publish logs to Google Logging service.
 
 ## Steps
+* Make sure IAM service account, assigned on VMs, has pernmissions to write logs. For instance, predefined role [roles/logging.logWriter](https://cloud.google.com/iam/docs/understanding-roles).
 * Login on virtual machine
 * Add Google Fluentd repo:
 ```sh
