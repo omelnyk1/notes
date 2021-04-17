@@ -5,3 +5,4 @@ List of notes:
 - [How to restore deleted object in GCS bucket](how_to_restore_deleted_object_in_gcs_bucket.md)
 - [Packer for GCP Compute Engine](packer_gcp.md)
 - [Fluentd agent for GCE virtual machine](fluentd_mongo_gce.md)
+- [Snyk dependency report with Python](snyk_reports.md)
